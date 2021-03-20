@@ -21,7 +21,7 @@ public class FacultyController {
     UniversityRepository universityRepository;
 
 
-    //VAZIRLIK UCHUN
+    //VAZIRLIK UCHUN.
     @GetMapping
     public List<Faculty> getFaculties() {
         return facultyRepository.findAll();
