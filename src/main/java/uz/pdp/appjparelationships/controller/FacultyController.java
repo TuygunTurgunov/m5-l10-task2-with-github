@@ -59,7 +59,7 @@ public class FacultyController {
             facultyRepository.deleteById(id);
             return "Faculty deleted";
         } catch (Exception e) {
-            return "Error in deleting";
+            return "Error in deleting (this row is foreign key.)";
         }
     }
 
